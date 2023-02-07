@@ -1,0 +1,371 @@
+[D 19:16:38.510 NotebookApp] Searching ['/Users/drancope/opt/anaconda3/etc/jupyter', '/Users/drancope/.jupyter', '/Users/drancope/.local/etc/jupyter', '/usr/local/etc/jupyter', '/etc/jupyter'] for config files
+[D 19:16:38.510 NotebookApp] Looking for jupyter_config in /etc/jupyter
+[D 19:16:38.510 NotebookApp] Looking for jupyter_config in /usr/local/etc/jupyter
+[D 19:16:38.510 NotebookApp] Looking for jupyter_config in /Users/drancope/.local/etc/jupyter
+[D 19:16:38.510 NotebookApp] Looking for jupyter_config in /Users/drancope/.jupyter
+[D 19:16:38.510 NotebookApp] Looking for jupyter_config in /Users/drancope/opt/anaconda3/etc/jupyter
+[D 19:16:38.511 NotebookApp] Looking for jupyter_notebook_config in /etc/jupyter
+[D 19:16:38.511 NotebookApp] Looking for jupyter_notebook_config in /usr/local/etc/jupyter
+[D 19:16:38.511 NotebookApp] Looking for jupyter_notebook_config in /Users/drancope/.local/etc/jupyter
+[D 19:16:38.511 NotebookApp] Looking for jupyter_notebook_config in /Users/drancope/.jupyter
+[D 19:16:38.512 NotebookApp] Loaded config file: /Users/drancope/.jupyter/jupyter_notebook_config.py
+[D 19:16:38.512 NotebookApp] Loaded config file: /Users/drancope/.jupyter/jupyter_notebook_config.json
+[D 19:16:38.512 NotebookApp] Looking for jupyter_notebook_config in /Users/drancope/opt/anaconda3/etc/jupyter
+[D 19:16:38.513 NotebookApp] Loaded config file: /Users/drancope/opt/anaconda3/etc/jupyter/jupyter_notebook_config.json
+[D 19:16:38.528 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/etc/jupyter/jupyter_notebook_config.json
+[D 19:16:38.529 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/usr/local/etc/jupyter/jupyter_notebook_config.json
+[D 19:16:38.529 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/Users/drancope/.local/etc/jupyter/jupyter_notebook_config.json
+[D 19:16:38.529 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/Users/drancope/.jupyter/jupyter_notebook_config.json
+[D 19:16:38.529 NotebookApp] Paths used for configuration of jupyter_notebook_config: 
+    	/Users/drancope/opt/anaconda3/etc/jupyter/jupyter_notebook_config.d/jupyterlab.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/jupyter_notebook_config.d/panel-client-jupyter.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/jupyter_notebook_config.json
+[W 19:16:38.860 NotebookApp] Error loading server extension jupyter_http_over_ws
+    Traceback (most recent call last):
+      File "/Users/drancope/opt/anaconda3/lib/python3.9/site-packages/notebook/notebookapp.py", line 2026, in init_server_extensions
+        mod = importlib.import_module(modulename)
+      File "/Users/drancope/opt/anaconda3/lib/python3.9/importlib/__init__.py", line 127, in import_module
+        return _bootstrap._gcd_import(name[level:], package, level)
+      File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+      File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+      File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+    ModuleNotFoundError: No module named 'jupyter_http_over_ws'
+[W 2023-02-07 19:16:39.369 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-07 19:16:39.369 LabApp] 'local_hostnames' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-07 19:16:39.369 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-02-07 19:16:39.369 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-02-07 19:16:39.375 LabApp] JupyterLab extension loaded from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/jupyterlab
+[I 2023-02-07 19:16:39.375 LabApp] JupyterLab application directory is /Users/drancope/opt/anaconda3/share/jupyter/lab
+[I 19:16:41.058 NotebookApp] Serving notebooks from local directory: /Users/drancope/Documents/Programacion/GitHub/learn-arcade-work
+[I 19:16:41.059 NotebookApp] Jupyter Notebook 6.5.2 is running at:
+[I 19:16:41.059 NotebookApp] http://localhost:8888/?token=...
+[I 19:16:41.059 NotebookApp]  or http://127.0.0.1:8888/?token=...
+[I 19:16:41.059 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[D 19:16:42.272 NotebookApp] Accepting token-authenticated connection from 127.0.0.1
+[D 19:16:42.273 NotebookApp] Using contents: services/contents
+[D 19:16:42.304 NotebookApp] Path base/images/favicon.ico served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/base/images/favicon.ico
+[D 19:16:42.305 NotebookApp] Path components/jquery-ui/dist/themes/smoothness/jquery-ui.min.css served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/jquery-ui/dist/themes/smoothness/jquery-ui.min.css
+[D 19:16:42.306 NotebookApp] Path components/jquery-typeahead/dist/jquery.typeahead.min.css served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/jquery-typeahead/dist/jquery.typeahead.min.css
+[D 19:16:42.306 NotebookApp] Path style/style.min.css served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/style/style.min.css
+[D 19:16:42.308 NotebookApp] Path components/es6-promise/promise.min.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/es6-promise/promise.min.js
+[D 19:16:42.308 NotebookApp] Path components/react/react.production.min.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/react/react.production.min.js
+[D 19:16:42.309 NotebookApp] Path components/react/react-dom.production.min.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/react/react-dom.production.min.js
+[D 19:16:42.310 NotebookApp] Path components/create-react-class/index.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/create-react-class/index.js
+[D 19:16:42.310 NotebookApp] Path components/requirejs/require.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/requirejs/require.js
+[D 19:16:42.311 NotebookApp] Path base/images/logo.png served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/base/images/logo.png
+[D 19:16:42.312 NotebookApp] Path tree/js/main.min.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/tree/js/main.min.js
+[D 19:16:42.315 NotebookApp] 200 GET /tree?token=%2Cp%3D8%24C8%2BoGT2mKuK4qJhisv5dyw%2409sW3%2FBzT4xFlXO4TXhY8w (127.0.0.1) 44.200000ms
+[D 19:16:42.346 NotebookApp] 200 GET /static/base/images/logo.png?v=a2a176ee3cee251ffddf5fa21fe8e43727a9e5f87a06f9c91ad7b776d9e9d3d5e0159c16cc188a3965e00375fb4bc336c16067c688f5040c0c2d4bfdb852a9e4 (127.0.0.1) 1.110000ms
+[D 19:16:42.347 NotebookApp] Path custom.css served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/custom/custom.css
+[D 19:16:42.347 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 0.780000ms
+[D 19:16:42.415 NotebookApp] Path services/contents.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/services/contents.js
+[D 19:16:42.416 NotebookApp] 200 GET /static/services/contents.js?v=20230207191638 (127.0.0.1) 1.290000ms
+[D 19:16:42.418 NotebookApp] 200 GET /static/base/images/favicon.ico?v=50afa725b5de8b00030139d09b38620224d4e7dba47c07ef0e86d4643f30c9bfe6bb7e1a4a1c561aa32834480909a4b6fe7cd1e17f7159330b6b5914bf45a880 (127.0.0.1) 0.700000ms
+[D 19:16:42.425 NotebookApp] Path custom-preload.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/custom/custom-preload.js
+[D 19:16:42.426 NotebookApp] 200 GET /custom/custom-preload.js?v=20230207191638 (127.0.0.1) 1.050000ms
+[D 19:16:42.442 NotebookApp] Paths used for configuration of tree: 
+    	/etc/jupyter/nbconfig/tree.json
+[D 19:16:42.442 NotebookApp] Paths used for configuration of tree: 
+    	/usr/local/etc/jupyter/nbconfig/tree.json
+[D 19:16:42.442 NotebookApp] Paths used for configuration of tree: 
+    	/Users/drancope/.local/etc/jupyter/nbconfig/tree.json
+[D 19:16:42.443 NotebookApp] Paths used for configuration of tree: 
+    	/Users/drancope/.jupyter/nbconfig/tree.json
+[D 19:16:42.443 NotebookApp] Paths used for configuration of tree: 
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/tree.json
+[D 19:16:42.443 NotebookApp] 200 GET /api/config/tree?_=1675793802400 (127.0.0.1) 2.780000ms
+[D 19:16:42.444 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 19:16:42.445 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 19:16:42.445 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/.local/etc/jupyter/nbconfig/common.json
+[D 19:16:42.445 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/.jupyter/nbconfig/common.json
+[D 19:16:42.446 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/common.json
+[D 19:16:42.446 NotebookApp] 200 GET /api/config/common?_=1675793802401 (127.0.0.1) 2.140000ms
+[D 19:16:42.447 NotebookApp] 200 GET /api/terminals?_=1675793802402 (127.0.0.1) 0.570000ms
+[D 19:16:42.448 NotebookApp] Found kernel python3 in /Users/drancope/opt/anaconda3/share/jupyter/kernels
+[D 19:16:42.448 NotebookApp] Found kernel kotlin in /Users/drancope/opt/anaconda3/share/jupyter/kernels
+[D 19:16:42.448 NotebookApp] Found kernel ganymede-1.1.0.20210614-java-15 in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:42.448 NotebookApp] Found kernel gophernotes in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:42.448 NotebookApp] Found kernel rust in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:42.448 NotebookApp] Found kernel javascript in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:42.449 NotebookApp] Found kernel ruby in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:42.588 NotebookApp] 200 GET /api/kernelspecs (127.0.0.1) 140.390000ms
+[D 19:16:42.589 NotebookApp] 200 GET /api/sessions?_=1675793802403 (127.0.0.1) 1.220000ms
+[D 19:16:42.590 NotebookApp] 200 GET /api/terminals?_=1675793802404 (127.0.0.1) 1.300000ms
+[D 19:16:42.590 NotebookApp] Path custom.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/custom/custom.js
+[D 19:16:42.591 NotebookApp] 200 GET /custom/custom.js?v=20230207191638 (127.0.0.1) 0.830000ms
+[D 19:16:42.599 NotebookApp] 200 GET /api/contents?type=directory&_=1675793802405 (127.0.0.1) 4.230000ms
+[D 19:16:45.600 NotebookApp] 200 GET /api/contents/Testing?type=directory&_=1675793802406 (127.0.0.1) 1.560000ms
+[D 19:16:47.677 NotebookApp] Using contents: services/contents
+[D 19:16:47.707 NotebookApp] Path base/images/favicon-notebook.ico served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/base/images/favicon-notebook.ico
+[D 19:16:47.708 NotebookApp] Path components/bootstrap-tour/build/css/bootstrap-tour.min.css served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/bootstrap-tour/build/css/bootstrap-tour.min.css
+[D 19:16:47.709 NotebookApp] Path components/codemirror/lib/codemirror.css served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/codemirror/lib/codemirror.css
+[D 19:16:47.710 NotebookApp] Path notebook/css/override.css served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/notebook/css/override.css
+[D 19:16:48.463 NotebookApp] Path components/text-encoding/lib/encoding.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/text-encoding/lib/encoding.js
+[D 19:16:48.465 NotebookApp] Path notebook/js/main.min.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/notebook/js/main.min.js
+[D 19:16:48.472 NotebookApp] 200 GET /notebooks/Testing/Untitled.ipynb (127.0.0.1) 795.300000ms
+[D 19:16:48.495 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 0.520000ms
+[D 19:16:48.496 NotebookApp] Path components/MathJax/MathJax.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/MathJax/MathJax.js
+[D 19:16:48.496 NotebookApp] 304 GET /static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (127.0.0.1) 0.760000ms
+[D 19:16:48.497 NotebookApp] 200 GET /static/components/text-encoding/lib/encoding.js?v=737ac6f9f978afb6348b5914877e7d7136de7465cd4cdf389bad9a6b3ad5ceffbfb23febc75c23378967d7d36f98f5388208e8eb78c80f2bf47e8f8c000481ad (127.0.0.1) 1.130000ms
+[D 19:16:48.510 NotebookApp] Path components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js
+[D 19:16:48.511 NotebookApp] 304 GET /static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.9 (127.0.0.1) 0.770000ms
+[D 19:16:48.540 NotebookApp] Path components/MathJax/config/Safe.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/MathJax/config/Safe.js
+[D 19:16:48.541 NotebookApp] 200 GET /static/components/MathJax/config/Safe.js?V=2.7.9 (127.0.0.1) 0.920000ms
+[D 19:16:48.610 NotebookApp] 200 GET /static/base/images/favicon-notebook.ico?v=eb02bb6f6435d048eba1bf1bd3b3621f8c14f26518dbadd8efd4ee6ee2721caf2367bc0cbc27d2ee2c35bc3b035aad07c6d625422b9445bf301897f493d0edc5 (127.0.0.1) 0.830000ms
+[D 19:16:48.657 NotebookApp] 304 GET /custom/custom-preload.js?v=20230207191638 (127.0.0.1) 0.540000ms
+[D 19:16:48.664 NotebookApp] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[D 19:16:48.665 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.d/vispy.json
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[D 19:16:48.665 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/drancope/.local/etc/jupyter/nbconfig/notebook.json
+[D 19:16:48.665 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/drancope/.jupyter/nbconfig/notebook.json
+[D 19:16:48.666 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.d/bqplot.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.d/ipycanvas.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.json
+[D 19:16:48.668 NotebookApp] 200 GET /api/config/notebook?_=1675793808605 (127.0.0.1) 5.560000ms
+[D 19:16:48.669 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 19:16:48.670 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 19:16:48.670 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/.local/etc/jupyter/nbconfig/common.json
+[D 19:16:48.670 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/.jupyter/nbconfig/common.json
+[D 19:16:48.670 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/common.json
+[D 19:16:48.671 NotebookApp] 200 GET /api/config/common?_=1675793808606 (127.0.0.1) 1.850000ms
+[D 19:16:48.677 NotebookApp] Path components/MathJax/extensions/TeX/newcommand.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/MathJax/extensions/TeX/newcommand.js
+[D 19:16:48.677 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/newcommand.js?V=2.7.9 (127.0.0.1) 0.590000ms
+[D 19:16:48.678 NotebookApp] Path components/MathJax/extensions/TeX/begingroup.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/MathJax/extensions/TeX/begingroup.js
+[D 19:16:48.678 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/begingroup.js?V=2.7.9 (127.0.0.1) 0.490000ms
+[D 19:16:48.678 NotebookApp] Path components/MathJax/extensions/MathML/content-mathml.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/MathJax/extensions/MathML/content-mathml.js
+[D 19:16:48.679 NotebookApp] 304 GET /static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.9 (127.0.0.1) 0.650000ms
+[D 19:16:48.689 NotebookApp] Found kernel python3 in /Users/drancope/opt/anaconda3/share/jupyter/kernels
+[D 19:16:48.689 NotebookApp] Found kernel kotlin in /Users/drancope/opt/anaconda3/share/jupyter/kernels
+[D 19:16:48.690 NotebookApp] Found kernel ganymede-1.1.0.20210614-java-15 in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:48.690 NotebookApp] Found kernel gophernotes in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:48.690 NotebookApp] Found kernel rust in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:48.690 NotebookApp] Found kernel javascript in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:48.690 NotebookApp] Found kernel ruby in /Users/drancope/Library/Jupyter/kernels
+[D 19:16:48.694 NotebookApp] 304 GET /api/kernelspecs (127.0.0.1) 4.780000ms
+[W 19:16:48.734 NotebookApp] Notebook Testing/Untitled.ipynb is not trusted
+[D 19:16:48.735 NotebookApp] 200 GET /api/contents/Testing/Untitled.ipynb?type=notebook&_=1675793808607 (127.0.0.1) 40.370000ms
+[D 19:16:48.737 NotebookApp] 304 GET /custom/custom.js?v=20230207191638 (127.0.0.1) 1.100000ms
+[D 19:16:48.737 NotebookApp] Path components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js
+[D 19:16:48.737 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.9 (127.0.0.1) 1.300000ms
+[D 19:16:48.738 NotebookApp] Path ipycanvas/extension.js served from /Users/drancope/opt/anaconda3/share/jupyter/nbextensions/ipycanvas/extension.js
+[D 19:16:48.739 NotebookApp] 200 GET /nbextensions/ipycanvas/extension.js?v=20230207191638 (127.0.0.1) 2.790000ms
+[D 19:16:48.739 NotebookApp] Path components/MathJax/extensions/Safe.js served from /Users/drancope/opt/anaconda3/lib/python3.9/site-packages/nbclassic/static/components/MathJax/extensions/Safe.js
+[D 19:16:48.739 NotebookApp] 304 GET /static/components/MathJax/extensions/Safe.js?V=2.7.9 (127.0.0.1) 2.060000ms
+[D 19:16:48.739 NotebookApp] Path vispy/extension.js served from /usr/local/share/jupyter/nbextensions/vispy/extension.js
+[D 19:16:48.740 NotebookApp] 200 GET /nbextensions/vispy/extension.js?v=20230207191638 (127.0.0.1) 2.550000ms
+[D 19:16:48.740 NotebookApp] Path bqplot/extension.js served from /Users/drancope/opt/anaconda3/share/jupyter/nbextensions/bqplot/extension.js
+[D 19:16:48.741 NotebookApp] 200 GET /nbextensions/bqplot/extension.js?v=20230207191638 (127.0.0.1) 3.060000ms
+[D 19:16:48.742 NotebookApp] Path jupyterlab-plotly/extension.js served from /Users/drancope/opt/anaconda3/share/jupyter/nbextensions/jupyterlab-plotly/extension.js
+[D 19:16:48.743 NotebookApp] 200 GET /nbextensions/jupyterlab-plotly/extension.js?v=20230207191638 (127.0.0.1) 1.440000ms
+[D 19:16:48.743 NotebookApp] Path jupyter-js-widgets/extension.js served from /Users/drancope/opt/anaconda3/share/jupyter/nbextensions/jupyter-js-widgets/extension.js
+[D 19:16:48.748 NotebookApp] 200 GET /nbextensions/jupyter-js-widgets/extension.js?v=20230207191638 (127.0.0.1) 6.080000ms
+[D 19:16:48.804 NotebookApp] Instantiating kernel 'Python 3 (ipykernel)' with kernel provisioner: local-provisioner
+[D 19:16:48.826 NotebookApp] Starting kernel: ['/Users/drancope/opt/anaconda3/bin/python', '-m', 'ipykernel_launcher', '-f', '/Users/drancope/Library/Jupyter/runtime/kernel-98d354a7-ded0-4261-abdd-6f69ed858caf.json']
+[D 19:16:48.839 NotebookApp] Connecting to: tcp://127.0.0.1:60018
+[D 19:16:48.843 NotebookApp] 200 GET /api/contents/Testing/Untitled.ipynb/checkpoints?_=1675793808608 (127.0.0.1) 6.130000ms
+[D 19:16:48.852 NotebookApp] Connecting to: tcp://127.0.0.1:60015
+[I 19:16:48.853 NotebookApp] Kernel started: 98d354a7-ded0-4261-abdd-6f69ed858caf, name: python3
+[D 19:16:48.853 NotebookApp] Kernel args: {'kernel_name': 'python3', 'cwd': '/Users/drancope/Documents/Programacion/GitHub/learn-arcade-work/Testing'}
+[D 19:16:48.855 NotebookApp] 201 POST /api/sessions (127.0.0.1) 55.560000ms
+[D 19:16:48.872 NotebookApp] Initializing websocket connection /api/kernels/98d354a7-ded0-4261-abdd-6f69ed858caf/channels
+[D 19:16:48.873 NotebookApp] Requesting kernel info from 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:16:48.873 NotebookApp] Connecting to: tcp://127.0.0.1:60014
+[D 19:16:49.763 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:16:49.764 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:16:49.764 NotebookApp] Received kernel info: {'status': 'ok', 'protocol_version': '5.3', 'implementation': 'ipython', 'implementation_version': '7.33.0', 'language_info': {'name': 'python', 'version': '3.9.15', 'mimetype': 'text/x-python', 'codemirror_mode': {'name': 'ipython', 'version': 3}, 'pygments_lexer': 'ipython3', 'nbconvert_exporter': 'python', 'file_extension': '.py'}, 'banner': "Python 3.9.15 | packaged by conda-forge | (main, Nov 22 2022, 08:50:29) \nType 'copyright', 'credits' or 'license' for more information\nIPython 7.33.0 -- An enhanced Interactive Python. Type '?' for help.\n", 'help_links': [{'text': 'Python Reference', 'url': 'https://docs.python.org/3.9'}, {'text': 'IPython Reference', 'url': 'https://ipython.org/documentation.html'}, {'text': 'NumPy Reference', 'url': 'https://docs.scipy.org/doc/numpy/reference/'}, {'text': 'SciPy Reference', 'url': 'https://docs.scipy.org/doc/scipy/reference/'}, {'text': 'Matplotlib Reference', 'url': 'https://matplotlib.org/contents.html'}, {'text': 'SymPy Reference', 'url': 'http://docs.sympy.org/latest/index.html'}, {'text': 'pandas Reference', 'url': 'https://pandas.pydata.org/pandas-docs/stable/'}]}
+[D 19:16:49.765 NotebookApp] 101 GET /api/kernels/98d354a7-ded0-4261-abdd-6f69ed858caf/channels?session_id=28d8aab53de34e32ae4c4376125d7e21 (127.0.0.1) 892.850000ms
+[D 19:16:49.765 NotebookApp] Opening websocket /api/kernels/98d354a7-ded0-4261-abdd-6f69ed858caf/channels
+[D 19:16:49.765 NotebookApp] Getting buffer for 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:16:49.765 NotebookApp] Connecting to: tcp://127.0.0.1:60015
+[D 19:16:49.766 NotebookApp] Connecting to: tcp://127.0.0.1:60014
+[D 19:16:49.766 NotebookApp] Connecting to: tcp://127.0.0.1:60018
+[D 19:16:49.766 NotebookApp] Connecting to: tcp://127.0.0.1:60016
+[D 19:16:49.767 NotebookApp] Connecting to: tcp://127.0.0.1:60014
+[D 19:16:49.767 NotebookApp] Connecting to: tcp://127.0.0.1:60018
+[D 19:16:49.768 NotebookApp] Nudge: attempt 1 on kernel 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:16:49.770 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:16:49.770 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:16:49.771 NotebookApp] Nudge: IOPub received: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:16:49.771 NotebookApp] Nudge: resolving iopub future: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:16:49.771 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:16:49.771 NotebookApp] Nudge: shell info reply received: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:16:49.771 NotebookApp] Nudge: resolving shell future: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:16:49.771 NotebookApp] Nudge: control info reply received: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:16:49.772 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:16:49.775 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:16:49.776 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[D 19:16:49.777 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[IPKernelApp] WARNING | No such comm: b7b84f58-91fc-4e28-b191-675bd5dc9d41
+[D 19:16:49.778 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: comm_close
+[D 19:16:49.780 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:16:49.780 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:16:49.781 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:16:49.783 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:16:49.785 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:17:03.845 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:17:03.845 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: execute_input
+[I 19:17:27.839 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 98d354a7-ded0-4261-abdd-6f69ed858caf restarted
+[D 19:17:27.851 NotebookApp] Starting kernel: ['/Users/drancope/opt/anaconda3/bin/python', '-m', 'ipykernel_launcher', '-f', '/Users/drancope/Library/Jupyter/runtime/kernel-98d354a7-ded0-4261-abdd-6f69ed858caf.json']
+[D 19:17:27.860 NotebookApp] Connecting to: tcp://127.0.0.1:60018
+[D 19:17:28.433 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (starting)
+[D 19:17:28.541 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:17:28.543 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:17:39.861 NotebookApp] KernelRestarter: restart apparently succeeded
+[D 19:18:48.807 NotebookApp] 200 GET /api/contents/Testing/Untitled.ipynb?content=0&_=1675793808609 (127.0.0.1) 1.350000ms
+[I 19:18:48.810 NotebookApp] Saving file at /Testing/Untitled.ipynb
+[D 19:18:48.810 NotebookApp] Saving /Users/drancope/Documents/Programacion/GitHub/learn-arcade-work/Testing/Untitled.ipynb
+[D 19:18:48.816 NotebookApp] 200 PUT /api/contents/Testing/Untitled.ipynb (127.0.0.1) 6.780000ms
+[D 19:20:43.281 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:20:43.281 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: execute_input
+[D 19:20:48.801 NotebookApp] 200 GET /api/contents/Testing/Untitled.ipynb?content=0&_=1675793808610 (127.0.0.1) 0.850000ms
+[I 19:20:48.804 NotebookApp] Saving file at /Testing/Untitled.ipynb
+[D 19:20:48.804 NotebookApp] Saving /Users/drancope/Documents/Programacion/GitHub/learn-arcade-work/Testing/Untitled.ipynb
+[D 19:20:48.807 NotebookApp] 200 PUT /api/contents/Testing/Untitled.ipynb (127.0.0.1) 3.200000ms
+[D 19:21:13.021 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:22:48.798 NotebookApp] 200 GET /api/contents/Testing/Untitled.ipynb?content=0&_=1675793808611 (127.0.0.1) 0.780000ms
+[I 19:22:48.802 NotebookApp] Saving file at /Testing/Untitled.ipynb
+[D 19:22:48.802 NotebookApp] Saving /Users/drancope/Documents/Programacion/GitHub/learn-arcade-work/Testing/Untitled.ipynb
+[D 19:22:48.806 NotebookApp] 200 PUT /api/contents/Testing/Untitled.ipynb (127.0.0.1) 4.340000ms
+[I 19:24:30.861 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 98d354a7-ded0-4261-abdd-6f69ed858caf restarted
+[D 19:24:30.873 NotebookApp] Starting kernel: ['/Users/drancope/opt/anaconda3/bin/python', '-m', 'ipykernel_launcher', '-f', '/Users/drancope/Library/Jupyter/runtime/kernel-98d354a7-ded0-4261-abdd-6f69ed858caf.json']
+[D 19:24:30.881 NotebookApp] Connecting to: tcp://127.0.0.1:60018
+[D 19:24:31.889 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (starting)
+[D 19:24:42.881 NotebookApp] KernelRestarter: restart apparently succeeded
+[W 19:24:50.993 NotebookApp] Trusting notebook /Testing/Untitled.ipynb
+[D 19:24:50.994 NotebookApp] 201 POST /api/contents/Testing/Untitled.ipynb/trust (127.0.0.1) 4.570000ms
+[D 19:24:50.998 NotebookApp] Websocket closed 98d354a7-ded0-4261-abdd-6f69ed858caf:28d8aab53de34e32ae4c4376125d7e21
+[I 19:24:50.999 NotebookApp] Starting buffering for 98d354a7-ded0-4261-abdd-6f69ed858caf:28d8aab53de34e32ae4c4376125d7e21
+[D 19:24:50.999 NotebookApp] Clearing buffer for 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.005 NotebookApp] Using contents: services/contents
+[D 19:24:51.691 NotebookApp] 304 GET /notebooks/Testing/Untitled.ipynb (127.0.0.1) 686.540000ms
+[D 19:24:51.712 NotebookApp] 304 GET /static/components/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML-full,Safe&delayStartupUntil=configured (127.0.0.1) 1.100000ms
+[D 19:24:51.714 NotebookApp] 304 GET /custom/custom.css (127.0.0.1) 1.020000ms
+[D 19:24:51.716 NotebookApp] 200 GET /static/components/text-encoding/lib/encoding.js?v=737ac6f9f978afb6348b5914877e7d7136de7465cd4cdf389bad9a6b3ad5ceffbfb23febc75c23378967d7d36f98f5388208e8eb78c80f2bf47e8f8c000481ad (127.0.0.1) 3.140000ms
+[D 19:24:51.727 NotebookApp] 304 GET /static/components/MathJax/config/TeX-AMS-MML_HTMLorMML-full.js?V=2.7.9 (127.0.0.1) 1.010000ms
+[D 19:24:51.752 NotebookApp] 200 GET /static/components/MathJax/config/Safe.js?V=2.7.9 (127.0.0.1) 1.190000ms
+[D 19:24:51.811 NotebookApp] 304 GET /custom/custom-preload.js?v=20230207191638 (127.0.0.1) 0.610000ms
+[D 19:24:51.819 NotebookApp] Paths used for configuration of notebook: 
+    	/etc/jupyter/nbconfig/notebook.json
+[D 19:24:51.820 NotebookApp] Paths used for configuration of notebook: 
+    	/usr/local/etc/jupyter/nbconfig/notebook.d/vispy.json
+    	/usr/local/etc/jupyter/nbconfig/notebook.json
+[D 19:24:51.820 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/drancope/.local/etc/jupyter/nbconfig/notebook.json
+[D 19:24:51.821 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/drancope/.jupyter/nbconfig/notebook.json
+[D 19:24:51.822 NotebookApp] Paths used for configuration of notebook: 
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.d/bqplot.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.d/ipycanvas.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.d/jupyterlab-plotly.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/notebook.json
+[D 19:24:51.824 NotebookApp] 200 GET /api/config/notebook?_=1675794291761 (127.0.0.1) 6.030000ms
+[D 19:24:51.825 NotebookApp] Paths used for configuration of common: 
+    	/etc/jupyter/nbconfig/common.json
+[D 19:24:51.825 NotebookApp] Paths used for configuration of common: 
+    	/usr/local/etc/jupyter/nbconfig/common.json
+[D 19:24:51.825 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/.local/etc/jupyter/nbconfig/common.json
+[D 19:24:51.826 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/.jupyter/nbconfig/common.json
+[D 19:24:51.826 NotebookApp] Paths used for configuration of common: 
+    	/Users/drancope/opt/anaconda3/etc/jupyter/nbconfig/common.json
+[D 19:24:51.826 NotebookApp] 200 GET /api/config/common?_=1675794291762 (127.0.0.1) 1.840000ms
+[D 19:24:51.829 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/newcommand.js?V=2.7.9 (127.0.0.1) 0.450000ms
+[D 19:24:51.830 NotebookApp] 304 GET /static/components/MathJax/extensions/TeX/begingroup.js?V=2.7.9 (127.0.0.1) 0.500000ms
+[D 19:24:51.831 NotebookApp] 304 GET /static/components/MathJax/extensions/MathML/content-mathml.js?V=2.7.9 (127.0.0.1) 0.480000ms
+[D 19:24:51.841 NotebookApp] Found kernel python3 in /Users/drancope/opt/anaconda3/share/jupyter/kernels
+[D 19:24:51.841 NotebookApp] Found kernel kotlin in /Users/drancope/opt/anaconda3/share/jupyter/kernels
+[D 19:24:51.842 NotebookApp] Found kernel ganymede-1.1.0.20210614-java-15 in /Users/drancope/Library/Jupyter/kernels
+[D 19:24:51.842 NotebookApp] Found kernel gophernotes in /Users/drancope/Library/Jupyter/kernels
+[D 19:24:51.842 NotebookApp] Found kernel rust in /Users/drancope/Library/Jupyter/kernels
+[D 19:24:51.842 NotebookApp] Found kernel javascript in /Users/drancope/Library/Jupyter/kernels
+[D 19:24:51.842 NotebookApp] Found kernel ruby in /Users/drancope/Library/Jupyter/kernels
+[D 19:24:51.852 NotebookApp] 304 GET /api/kernelspecs (127.0.0.1) 12.040000ms
+[D 19:24:51.854 NotebookApp] 200 GET /api/contents/Testing/Untitled.ipynb?type=notebook&_=1675794291763 (127.0.0.1) 2.200000ms
+[D 19:24:51.855 NotebookApp] 304 GET /custom/custom.js?v=20230207191638 (127.0.0.1) 2.330000ms
+[D 19:24:51.855 NotebookApp] 304 GET /static/components/MathJax/jax/output/HTML-CSS/fonts/STIX-Web/fontdata.js?V=2.7.9 (127.0.0.1) 2.760000ms
+[D 19:24:51.856 NotebookApp] 304 GET /static/components/MathJax/extensions/Safe.js?V=2.7.9 (127.0.0.1) 0.360000ms
+[D 19:24:51.860 NotebookApp] 304 GET /nbextensions/vispy/extension.js?v=20230207191638 (127.0.0.1) 0.430000ms
+[D 19:24:51.861 NotebookApp] 304 GET /nbextensions/bqplot/extension.js?v=20230207191638 (127.0.0.1) 0.850000ms
+[D 19:24:51.862 NotebookApp] 304 GET /nbextensions/ipycanvas/extension.js?v=20230207191638 (127.0.0.1) 0.880000ms
+[D 19:24:51.863 NotebookApp] 304 GET /nbextensions/jupyterlab-plotly/extension.js?v=20230207191638 (127.0.0.1) 1.040000ms
+[D 19:24:51.864 NotebookApp] 304 GET /nbextensions/jupyter-js-widgets/extension.js?v=20230207191638 (127.0.0.1) 0.630000ms
+[D 19:24:51.896 NotebookApp] 201 POST /api/sessions (127.0.0.1) 1.030000ms
+[D 19:24:51.897 NotebookApp] 200 GET /api/contents/Testing/Untitled.ipynb/checkpoints?_=1675794291764 (127.0.0.1) 0.720000ms
+[D 19:24:51.907 NotebookApp] Initializing websocket connection /api/kernels/98d354a7-ded0-4261-abdd-6f69ed858caf/channels
+[D 19:24:51.908 NotebookApp] 101 GET /api/kernels/98d354a7-ded0-4261-abdd-6f69ed858caf/channels?session_id=055145d859f646ad82c71ee80f03ac95 (127.0.0.1) 1.360000ms
+[D 19:24:51.908 NotebookApp] Opening websocket /api/kernels/98d354a7-ded0-4261-abdd-6f69ed858caf/channels
+[D 19:24:51.908 NotebookApp] Getting buffer for 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.908 NotebookApp] Clearing buffer for 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.909 NotebookApp] Connecting to: tcp://127.0.0.1:60015
+[D 19:24:51.909 NotebookApp] Connecting to: tcp://127.0.0.1:60014
+[D 19:24:51.910 NotebookApp] Connecting to: tcp://127.0.0.1:60018
+[D 19:24:51.910 NotebookApp] Connecting to: tcp://127.0.0.1:60016
+[D 19:24:51.910 NotebookApp] Connecting to: tcp://127.0.0.1:60014
+[D 19:24:51.911 NotebookApp] Connecting to: tcp://127.0.0.1:60018
+[D 19:24:51.912 NotebookApp] Nudge: attempt 1 on kernel 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.915 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:24:51.916 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:24:51.916 NotebookApp] Nudge: IOPub received: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.916 NotebookApp] Nudge: resolving iopub future: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.917 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:24:51.917 NotebookApp] Nudge: shell info reply received: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.917 NotebookApp] Nudge: resolving shell future: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.917 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:24:51.917 NotebookApp] Nudge: control info reply received: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:24:51.921 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:24:51.921 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[D 19:24:51.972 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[IPKernelApp] WARNING | No such comm: 13163e45-2493-4532-b95a-74ea42e17c72
+[D 19:24:51.973 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: comm_close
+[D 19:24:51.973 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:24:51.974 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:24:51.975 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:24:51.989 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:24:51.989 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[D 19:25:04.051 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (busy)
+[D 19:25:04.051 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: execute_input
+[D 19:25:07.112 NotebookApp] activity on 98d354a7-ded0-4261-abdd-6f69ed858caf: status (idle)
+[I 19:25:18.881 NotebookApp] KernelRestarter: restarting kernel (1/5), keep random ports
+WARNING:root:kernel 98d354a7-ded0-4261-abdd-6f69ed858caf restarted
+[D 19:25:18.893 NotebookApp] Starting kernel: ['/Users/drancope/opt/anaconda3/bin/python', '-m', 'ipykernel_launcher', '-f', '/Users/drancope/Library/Jupyter/runtime/kernel-98d354a7-ded0-4261-abdd-6f69ed858caf.json']
+[D 19:25:18.900 NotebookApp] Connecting to: tcp://127.0.0.1:60018
+[D 19:25:25.147 NotebookApp] Websocket closed 98d354a7-ded0-4261-abdd-6f69ed858caf:055145d859f646ad82c71ee80f03ac95
+[I 19:25:25.148 NotebookApp] Starting buffering for 98d354a7-ded0-4261-abdd-6f69ed858caf:055145d859f646ad82c71ee80f03ac95
+[D 19:25:25.148 NotebookApp] Clearing buffer for 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:25:25.151 NotebookApp] Clearing buffer for 98d354a7-ded0-4261-abdd-6f69ed858caf
+[I 19:25:25.151 NotebookApp] Kernel shutdown: 98d354a7-ded0-4261-abdd-6f69ed858caf
+[D 19:25:25.266 NotebookApp] 204 DELETE /api/sessions/e6bb908d-487c-4f55-ba1e-e5a12689c1c9 (127.0.0.1) 116.520000ms
+[D 19:25:27.491 NotebookApp] 200 GET /api/sessions?_=1675793802407 (127.0.0.1) 0.730000ms
+[D 19:25:27.492 NotebookApp] 200 GET /api/terminals?_=1675793802408 (127.0.0.1) 0.560000ms
+[D 19:25:27.497 NotebookApp] 200 GET /api/contents/Testing?type=directory&_=1675793802409 (127.0.0.1) 1.530000ms
+[I 19:25:30.950 NotebookApp] Shutting down on /api/shutdown request.
+[D 19:25:30.950 NotebookApp] 200 POST /api/shutdown (127.0.0.1) 0.660000ms
+[I 19:25:30.951 NotebookApp] Shutting down 0 kernels
+[I 19:25:30.951 NotebookApp] Shutting down 0 terminals
